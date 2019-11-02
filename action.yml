@@ -5,8 +5,9 @@ inputs:
   gh-token:
     description: Pass in the GITHUB_TOKEN secret
     required: true
-using: docker
-image: Dockerfile
+runs:
+  using: docker
+  image: Dockerfile
 branding:
   icon: aperture
   color: green
