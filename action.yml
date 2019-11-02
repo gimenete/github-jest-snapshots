@@ -2,7 +2,7 @@ name: Jest Snapshots
 author: Alberto Gimeno <gimenete@gmail.com>
 description: Shows Jest Snapshots in the GitHub interface
 inputs:
-  gh-token:
+  GH_TOKEN:
     description: Pass in the GITHUB_TOKEN secret
     required: true
 runs:

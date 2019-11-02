@@ -27,7 +27,5 @@
     "@babel/traverse": "^7.2.3",
     "jest-snapshot": "^24.0.0"
   },
-  "dependencies": {
-    "@actions/core": "^1.2.0"
-  }
+  "dependencies": {}
 }
