@@ -1,0 +1,12 @@
+name: Jest Snapshots
+author: Alberto Gimeno <gimenete@gmail.com>
+description: Shows Jest Snapshots in the GitHub interface
+inputs:
+  gh-token:
+    description: Pass in the GITHUB_TOKEN secret
+    required: true
+using: docker
+image: Dockerfile
+branding:
+  icon: aperture
+  color: green
