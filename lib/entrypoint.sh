@@ -2,9 +2,12 @@
 
 set -e
 
+cd /action/lib
 pwd
 echo "looking at package.json"
 cat package.json
 npm install
 
-NODE_PATH=node_modules node /action/lib/run.js
+cd /github/workspace
+
+NODE_PATH=/action/lib/node_modules node /action/lib/run.js
