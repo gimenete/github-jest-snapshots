@@ -3,9 +3,6 @@
 set -e
 
 cd /action/lib
-pwd
-echo "looking at package.json"
-cat package.json
 npm install
 
 cd /github/workspace
