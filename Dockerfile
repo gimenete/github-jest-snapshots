@@ -9,5 +9,5 @@ LABEL maintainer="Alberto Gimeno <gimenete@gmail.com>"
 
 COPY lib /action/lib
 COPY package.json /action/lib/package.json
-COPY package-lock.json /action/lib/package.json
+COPY package-lock.json /action/lib/package-lock.json
 ENTRYPOINT ["/action/lib/entrypoint.sh"]
